@@ -1,0 +1,23 @@
+{
+  "name": "ejercicios-de-logica-3-18",
+  "version": "1.0.0",
+  "description": "fase de prueba en Academlo, ejercicos 1, 2 y 3 de un total de 18 ejercicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:all",
+    "test:all": "echo '🚀 Ejecutando todos los tests...' && npm run test:e7 && npm run test:e8 && npm run test:e9 && npm run test:e10 && npm run test:e11 && npm run test:e12",
+    "test:e7": "echo '🚀 Ejecutando tests del ejercicio 7...' && node ./tests/test7.js",
+    "test:e8": "echo '🚀 Ejecutando tests del ejercicio 8...' && node ./tests/test8.js",
+    "test:e9": "echo '🚀 Ejecutando tests del ejercicio 9...' && node ./tests/test9.js",
+    "test:e10": "echo '🚀 Ejecutando tests del ejercicio 10...' && node ./tests/test10.js",
+    "test:e11": "echo '🚀 Ejecutando tests del ejercicio 11...' && node ./tests/test11.js",
+    "test:e12": "echo '🚀 Ejecutando tests del ejercicio 12...' && node ./tests/test12.js"
+  },
+  "keywords": [],
+  "author": "Gabriel Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "1.5.1",
+    "dotenv": "16.3.1"
+  }
+}
