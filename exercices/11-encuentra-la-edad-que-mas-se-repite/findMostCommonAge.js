@@ -1,5 +1,5 @@
 // Ejercicio #11
-function findMostCommonAge(str) {
+function findMostCommonAge(students) {
   // escribe tu solución aquí
 }
 
